@@ -1,0 +1,19 @@
+tile-compare
+============
+
+A Tile-Based Method of Estimating Quality of Volunteered Geographic Information
+
+Various methods have been employed to estimate the quality of volunteered 
+geographic information. These methods depend on establishing semantic link
+ between features in a database of known quality and the VGI-sourced database.
+Vector geospatial operations (buffer, clip, length) are then employed to 
+calculate error at the feature level. This paper presents a method of 
+estimating quality through image analysis of raster tiles created from a 
+database of known quality versus a VGI-sourced database.
+
+The tile-based method has several distinct advantages. First, it does not
+require a semantic link between features in the databases. Second, the 
+method simultaneously provides estimates of positional accuracy and 
+completeness. Third, it is embedded in the tile-oriented cartography
+employed by modern digital maps. 
+

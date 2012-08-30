@@ -1,0 +1,12 @@
+*.pc[cod]
+*~
+*.tgz
+*.tar
+*.tar.gz
+
+tilecache.cgi
+tilecache.fcgi
+tilecache_*
+TileCache/
+tiles/
+
